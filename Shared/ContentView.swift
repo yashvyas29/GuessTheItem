@@ -11,6 +11,14 @@ struct ContentView: View {
     var body: some View {
         // StackButtonImageAlert()
         GuessTheItemView()
+        /*
+        Grid(spacing: 10, rows: 4, columns: 2) { row, col in
+            HStack {
+                Image(systemName: "\(row * 2 + col).circle")
+                Text("Row\(row) Column\(col)")
+            }
+        }
+         */
     }
 }
 
