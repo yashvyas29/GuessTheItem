@@ -19,6 +19,10 @@
 		C979E6EB26D36471004FB0A9 /* GuessTheItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C979E6E926D36471004FB0A9 /* GuessTheItemView.swift */; };
 		C979E6FD26D3F112004FB0A9 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = C979E6FC26D3F112004FB0A9 /* Grid.swift */; };
 		C979E6FE26D3F112004FB0A9 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = C979E6FC26D3F112004FB0A9 /* Grid.swift */; };
+		C9AD3D1826D571DF0066BE6D /* CustomBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AD3D1726D571DF0066BE6D /* CustomBinding.swift */; };
+		C9AD3D1926D571DF0066BE6D /* CustomBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AD3D1726D571DF0066BE6D /* CustomBinding.swift */; };
+		C9AD3D1B26D574630066BE6D /* RockPaperScissors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AD3D1A26D574630066BE6D /* RockPaperScissors.swift */; };
+		C9AD3D1C26D574630066BE6D /* RockPaperScissors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AD3D1A26D574630066BE6D /* RockPaperScissors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,8 @@
 		C979E6E626D362C8004FB0A9 /* StackButtonImageAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackButtonImageAlert.swift; sourceTree = "<group>"; };
 		C979E6E926D36471004FB0A9 /* GuessTheItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheItemView.swift; sourceTree = "<group>"; };
 		C979E6FC26D3F112004FB0A9 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		C9AD3D1726D571DF0066BE6D /* CustomBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBinding.swift; sourceTree = "<group>"; };
+		C9AD3D1A26D574630066BE6D /* RockPaperScissors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,8 @@
 				C979E6E626D362C8004FB0A9 /* StackButtonImageAlert.swift */,
 				C979E6E926D36471004FB0A9 /* GuessTheItemView.swift */,
 				C979E6FC26D3F112004FB0A9 /* Grid.swift */,
+				C9AD3D1726D571DF0066BE6D /* CustomBinding.swift */,
+				C9AD3D1A26D574630066BE6D /* RockPaperScissors.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -180,8 +188,10 @@
 			files = (
 				C979E6E726D362C8004FB0A9 /* StackButtonImageAlert.swift in Sources */,
 				C979E6D726D2B25C004FB0A9 /* ContentView.swift in Sources */,
+				C9AD3D1B26D574630066BE6D /* RockPaperScissors.swift in Sources */,
 				C979E6D526D2B25C004FB0A9 /* GuessTheItemApp.swift in Sources */,
 				C979E6FD26D3F112004FB0A9 /* Grid.swift in Sources */,
+				C9AD3D1826D571DF0066BE6D /* CustomBinding.swift in Sources */,
 				C979E6EA26D36471004FB0A9 /* GuessTheItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,8 +202,10 @@
 			files = (
 				C979E6E826D362C8004FB0A9 /* StackButtonImageAlert.swift in Sources */,
 				C979E6D826D2B25C004FB0A9 /* ContentView.swift in Sources */,
+				C9AD3D1C26D574630066BE6D /* RockPaperScissors.swift in Sources */,
 				C979E6D626D2B25C004FB0A9 /* GuessTheItemApp.swift in Sources */,
 				C979E6FE26D3F112004FB0A9 /* Grid.swift in Sources */,
+				C9AD3D1926D571DF0066BE6D /* CustomBinding.swift in Sources */,
 				C979E6EB26D36471004FB0A9 /* GuessTheItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

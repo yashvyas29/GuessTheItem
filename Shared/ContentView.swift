@@ -10,7 +10,9 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         // StackButtonImageAlert()
-        GuessTheItemView()
+        // GuessTheItemView()
+        // CustomBinding()
+        RockPaperScissors()
         /*
         Grid(spacing: 10, rows: 4, columns: 2) { row, col in
             HStack {
