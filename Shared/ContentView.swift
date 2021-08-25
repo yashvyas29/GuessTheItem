@@ -12,7 +12,8 @@ struct ContentView: View {
         // StackButtonImageAlert()
         // GuessTheItemView()
         // CustomBinding()
-        RockPaperScissors()
+        // RockPaperScissors()
+        StepperSlider()
         /*
         Grid(spacing: 10, rows: 4, columns: 2) { row, col in
             HStack {
