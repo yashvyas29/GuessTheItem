@@ -15,6 +15,9 @@ struct StepperSlider: View {
             Stepper(value: $value, in: 4...12, step: 0.25) {
                 Text("\(value, specifier: "%g") hours")
             }
+            .scaleEffect()
+            .blur(radius: 1)
+            .animation(.default)
             Slider(value: $value, in: 4...12, step: 0.25)
         }
     }

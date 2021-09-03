@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// Custom container
 struct Grid<Content: View>: View {
     let spacing: CGFloat
     let rows: Int
@@ -19,14 +20,14 @@ struct Grid<Content: View>: View {
 
     var body: some View {
         ZStack {
-            AngularGradient(colors: colors, center: .center).ignoresSafeArea()
+            AngularGradient(gradient: Gradient(colors: colors), center: .center).ignoresSafeArea()
             VStack(alignment: .leading, spacing: spacing) {
                 ForEach(0..<rows, id: \.self) { row in
                     HStack(spacing: spacing) {
                         ForEach(0..<self.columns, id: \.self) { column in
                             self.content(row, column)
                                 .padding()
-                                .border(.black)
+                                .border(Color.black)
                         }
                     }
                 }

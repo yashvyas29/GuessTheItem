@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -25,6 +25,10 @@
 		C9AD3D1926D571DF0066BE6D /* CustomBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AD3D1726D571DF0066BE6D /* CustomBinding.swift */; };
 		C9AD3D1B26D574630066BE6D /* RockPaperScissors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AD3D1A26D574630066BE6D /* RockPaperScissors.swift */; };
 		C9AD3D1C26D574630066BE6D /* RockPaperScissors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AD3D1A26D574630066BE6D /* RockPaperScissors.swift */; };
+		C9FEF19326D92F9900B7C287 /* ButtonAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FEF19226D92F9900B7C287 /* ButtonAnimation.swift */; };
+		C9FEF19426D92F9900B7C287 /* ButtonAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FEF19226D92F9900B7C287 /* ButtonAnimation.swift */; };
+		C9FEF19626D93F4600B7C287 /* LettersDragAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FEF19526D93F4600B7C287 /* LettersDragAnimation.swift */; };
+		C9FEF19726D93F4600B7C287 /* LettersDragAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FEF19526D93F4600B7C287 /* LettersDragAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +43,8 @@
 		C989FF6626D66FB90099D4D1 /* StepperSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperSlider.swift; sourceTree = "<group>"; };
 		C9AD3D1726D571DF0066BE6D /* CustomBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBinding.swift; sourceTree = "<group>"; };
 		C9AD3D1A26D574630066BE6D /* RockPaperScissors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissors.swift; sourceTree = "<group>"; };
+		C9FEF19226D92F9900B7C287 /* ButtonAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAnimation.swift; sourceTree = "<group>"; };
+		C9FEF19526D93F4600B7C287 /* LettersDragAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LettersDragAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,8 @@
 				C9AD3D1726D571DF0066BE6D /* CustomBinding.swift */,
 				C9AD3D1A26D574630066BE6D /* RockPaperScissors.swift */,
 				C989FF6626D66FB90099D4D1 /* StepperSlider.swift */,
+				C9FEF19226D92F9900B7C287 /* ButtonAnimation.swift */,
+				C9FEF19526D93F4600B7C287 /* LettersDragAnimation.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -148,7 +156,7 @@
 				};
 			};
 			buildConfigurationList = C979E6C526D2B25A004FB0A9 /* Build configuration list for PBXProject "GuessTheItem" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -192,7 +200,9 @@
 			files = (
 				C979E6E726D362C8004FB0A9 /* StackButtonImageAlert.swift in Sources */,
 				C979E6D726D2B25C004FB0A9 /* ContentView.swift in Sources */,
+				C9FEF19326D92F9900B7C287 /* ButtonAnimation.swift in Sources */,
 				C9AD3D1B26D574630066BE6D /* RockPaperScissors.swift in Sources */,
+				C9FEF19626D93F4600B7C287 /* LettersDragAnimation.swift in Sources */,
 				C979E6D526D2B25C004FB0A9 /* GuessTheItemApp.swift in Sources */,
 				C989FF6726D66FB90099D4D1 /* StepperSlider.swift in Sources */,
 				C979E6FD26D3F112004FB0A9 /* Grid.swift in Sources */,
@@ -207,7 +217,9 @@
 			files = (
 				C979E6E826D362C8004FB0A9 /* StackButtonImageAlert.swift in Sources */,
 				C979E6D826D2B25C004FB0A9 /* ContentView.swift in Sources */,
+				C9FEF19426D92F9900B7C287 /* ButtonAnimation.swift in Sources */,
 				C9AD3D1C26D574630066BE6D /* RockPaperScissors.swift in Sources */,
+				C9FEF19726D93F4600B7C287 /* LettersDragAnimation.swift in Sources */,
 				C979E6D626D2B25C004FB0A9 /* GuessTheItemApp.swift in Sources */,
 				C989FF6826D66FB90099D4D1 /* StepperSlider.swift in Sources */,
 				C979E6FE26D3F112004FB0A9 /* Grid.swift in Sources */,

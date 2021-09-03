@@ -45,6 +45,7 @@ struct RockPaperScissors: View {
                 }
                 .padding()
             }
+            .listStyle(GroupedListStyle())
         }
     }
 

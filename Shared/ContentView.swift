@@ -9,12 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        // LettersDragAnimation()
+        ButtonAnimation()
         // StackButtonImageAlert()
         // GuessTheItemView()
         // CustomBinding()
         // RockPaperScissors()
-        StepperSlider()
         /*
+        StepperSlider()
+            .onAppear {
+                print("Perform something when view appears.")
+            }
         Grid(spacing: 10, rows: 4, columns: 2) { row, col in
             HStack {
                 Image(systemName: "\(row * 2 + col).circle")
