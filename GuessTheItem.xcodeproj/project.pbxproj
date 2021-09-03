@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C931511B26E21D4B00728EA5 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C931511A26E21D4B00728EA5 /* DrawingView.swift */; };
+		C931511C26E21D4B00728EA5 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C931511A26E21D4B00728EA5 /* DrawingView.swift */; };
 		C979E6D526D2B25C004FB0A9 /* GuessTheItemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C979E6C726D2B25A004FB0A9 /* GuessTheItemApp.swift */; };
 		C979E6D626D2B25C004FB0A9 /* GuessTheItemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C979E6C726D2B25A004FB0A9 /* GuessTheItemApp.swift */; };
 		C979E6D726D2B25C004FB0A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C979E6C826D2B25A004FB0A9 /* ContentView.swift */; };
@@ -32,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C931511A26E21D4B00728EA5 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		C979E6C726D2B25A004FB0A9 /* GuessTheItemApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheItemApp.swift; sourceTree = "<group>"; };
 		C979E6C826D2B25A004FB0A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C979E6C926D2B25C004FB0A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -87,6 +90,7 @@
 				C989FF6626D66FB90099D4D1 /* StepperSlider.swift */,
 				C9FEF19226D92F9900B7C287 /* ButtonAnimation.swift */,
 				C9FEF19526D93F4600B7C287 /* LettersDragAnimation.swift */,
+				C931511A26E21D4B00728EA5 /* DrawingView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -207,6 +211,7 @@
 				C989FF6726D66FB90099D4D1 /* StepperSlider.swift in Sources */,
 				C979E6FD26D3F112004FB0A9 /* Grid.swift in Sources */,
 				C9AD3D1826D571DF0066BE6D /* CustomBinding.swift in Sources */,
+				C931511B26E21D4B00728EA5 /* DrawingView.swift in Sources */,
 				C979E6EA26D36471004FB0A9 /* GuessTheItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,6 +229,7 @@
 				C989FF6826D66FB90099D4D1 /* StepperSlider.swift in Sources */,
 				C979E6FE26D3F112004FB0A9 /* Grid.swift in Sources */,
 				C9AD3D1926D571DF0066BE6D /* CustomBinding.swift in Sources */,
+				C931511C26E21D4B00728EA5 /* DrawingView.swift in Sources */,
 				C979E6EB26D36471004FB0A9 /* GuessTheItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
