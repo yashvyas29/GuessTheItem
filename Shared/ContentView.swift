@@ -9,8 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        UserNotifications()
+        // ContextMenu()
+        // ImageInterpolation()
         // LettersDragAnimation()
-        ButtonAnimation()
+        // ButtonAnimation()
         // StackButtonImageAlert()
         // GuessTheItemView()
         // CustomBinding()

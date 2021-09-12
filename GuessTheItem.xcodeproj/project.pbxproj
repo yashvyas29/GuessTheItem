@@ -23,10 +23,15 @@
 		C979E6FE26D3F112004FB0A9 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = C979E6FC26D3F112004FB0A9 /* Grid.swift */; };
 		C989FF6726D66FB90099D4D1 /* StepperSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C989FF6626D66FB90099D4D1 /* StepperSlider.swift */; };
 		C989FF6826D66FB90099D4D1 /* StepperSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C989FF6626D66FB90099D4D1 /* StepperSlider.swift */; };
+		C9A3361E26EE3F66004C18C8 /* UserNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A3361D26EE3F66004C18C8 /* UserNotifications.swift */; };
 		C9AD3D1826D571DF0066BE6D /* CustomBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AD3D1726D571DF0066BE6D /* CustomBinding.swift */; };
 		C9AD3D1926D571DF0066BE6D /* CustomBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AD3D1726D571DF0066BE6D /* CustomBinding.swift */; };
 		C9AD3D1B26D574630066BE6D /* RockPaperScissors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AD3D1A26D574630066BE6D /* RockPaperScissors.swift */; };
 		C9AD3D1C26D574630066BE6D /* RockPaperScissors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AD3D1A26D574630066BE6D /* RockPaperScissors.swift */; };
+		C9E7BAB526EDF79C00C0559E /* ImageInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E7BAB426EDF79C00C0559E /* ImageInterpolation.swift */; };
+		C9E7BAB626EDF79C00C0559E /* ImageInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E7BAB426EDF79C00C0559E /* ImageInterpolation.swift */; };
+		C9E7BABA26EDFB0700C0559E /* ContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E7BAB926EDFB0700C0559E /* ContextMenu.swift */; };
+		C9E7BABB26EDFB0700C0559E /* ContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E7BAB926EDFB0700C0559E /* ContextMenu.swift */; };
 		C9FEF19326D92F9900B7C287 /* ButtonAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FEF19226D92F9900B7C287 /* ButtonAnimation.swift */; };
 		C9FEF19426D92F9900B7C287 /* ButtonAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FEF19226D92F9900B7C287 /* ButtonAnimation.swift */; };
 		C9FEF19626D93F4600B7C287 /* LettersDragAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FEF19526D93F4600B7C287 /* LettersDragAnimation.swift */; };
@@ -44,8 +49,11 @@
 		C979E6E926D36471004FB0A9 /* GuessTheItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheItemView.swift; sourceTree = "<group>"; };
 		C979E6FC26D3F112004FB0A9 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		C989FF6626D66FB90099D4D1 /* StepperSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperSlider.swift; sourceTree = "<group>"; };
+		C9A3361D26EE3F66004C18C8 /* UserNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotifications.swift; sourceTree = "<group>"; };
 		C9AD3D1726D571DF0066BE6D /* CustomBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBinding.swift; sourceTree = "<group>"; };
 		C9AD3D1A26D574630066BE6D /* RockPaperScissors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissors.swift; sourceTree = "<group>"; };
+		C9E7BAB426EDF79C00C0559E /* ImageInterpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInterpolation.swift; sourceTree = "<group>"; };
+		C9E7BAB926EDFB0700C0559E /* ContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenu.swift; sourceTree = "<group>"; };
 		C9FEF19226D92F9900B7C287 /* ButtonAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAnimation.swift; sourceTree = "<group>"; };
 		C9FEF19526D93F4600B7C287 /* LettersDragAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LettersDragAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +99,9 @@
 				C9FEF19226D92F9900B7C287 /* ButtonAnimation.swift */,
 				C9FEF19526D93F4600B7C287 /* LettersDragAnimation.swift */,
 				C931511A26E21D4B00728EA5 /* DrawingView.swift */,
+				C9E7BAB426EDF79C00C0559E /* ImageInterpolation.swift */,
+				C9E7BAB926EDFB0700C0559E /* ContextMenu.swift */,
+				C9A3361D26EE3F66004C18C8 /* UserNotifications.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -204,14 +215,17 @@
 			files = (
 				C979E6E726D362C8004FB0A9 /* StackButtonImageAlert.swift in Sources */,
 				C979E6D726D2B25C004FB0A9 /* ContentView.swift in Sources */,
+				C9E7BAB526EDF79C00C0559E /* ImageInterpolation.swift in Sources */,
 				C9FEF19326D92F9900B7C287 /* ButtonAnimation.swift in Sources */,
 				C9AD3D1B26D574630066BE6D /* RockPaperScissors.swift in Sources */,
+				C9A3361E26EE3F66004C18C8 /* UserNotifications.swift in Sources */,
 				C9FEF19626D93F4600B7C287 /* LettersDragAnimation.swift in Sources */,
 				C979E6D526D2B25C004FB0A9 /* GuessTheItemApp.swift in Sources */,
 				C989FF6726D66FB90099D4D1 /* StepperSlider.swift in Sources */,
 				C979E6FD26D3F112004FB0A9 /* Grid.swift in Sources */,
 				C9AD3D1826D571DF0066BE6D /* CustomBinding.swift in Sources */,
 				C931511B26E21D4B00728EA5 /* DrawingView.swift in Sources */,
+				C9E7BABA26EDFB0700C0559E /* ContextMenu.swift in Sources */,
 				C979E6EA26D36471004FB0A9 /* GuessTheItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +236,7 @@
 			files = (
 				C979E6E826D362C8004FB0A9 /* StackButtonImageAlert.swift in Sources */,
 				C979E6D826D2B25C004FB0A9 /* ContentView.swift in Sources */,
+				C9E7BAB626EDF79C00C0559E /* ImageInterpolation.swift in Sources */,
 				C9FEF19426D92F9900B7C287 /* ButtonAnimation.swift in Sources */,
 				C9AD3D1C26D574630066BE6D /* RockPaperScissors.swift in Sources */,
 				C9FEF19726D93F4600B7C287 /* LettersDragAnimation.swift in Sources */,
@@ -230,6 +245,7 @@
 				C979E6FE26D3F112004FB0A9 /* Grid.swift in Sources */,
 				C9AD3D1926D571DF0066BE6D /* CustomBinding.swift in Sources */,
 				C931511C26E21D4B00728EA5 /* DrawingView.swift in Sources */,
+				C9E7BABB26EDFB0700C0559E /* ContextMenu.swift in Sources */,
 				C979E6EB26D36471004FB0A9 /* GuessTheItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
