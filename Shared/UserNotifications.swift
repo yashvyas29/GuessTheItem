@@ -10,23 +10,7 @@ import SwiftUI
 struct UserNotifications: View {
     var body: some View {
         Button {
-            UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) { success, error in
-                if success {
-                    let content = UNMutableNotificationContent()
-                    content.title = "Local Notification"
-                    content.subtitle = "Checking user notifications."
-                    content.sound = .default
-                    let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 10, repeats: false)
-                    let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
-                    UNUserNotificationCenter.current().add(request) { error in
-                        if let error = error {
-                            print(error.localizedDescription)
-                        }
-                    }
-                } else {
-                    print(error?.localizedDescription ?? "Unknown error")
-                }
-            }
+            checkPermissionAndAddNotification()
         } label: {
             Text("Local Notification")
         }
@@ -34,6 +18,37 @@ struct UserNotifications: View {
         .background(Color.red)
         .foregroundColor(Color.white)
         .clipShape(Capsule())
+    }
+
+    private func checkPermissionAndAddNotification() {
+        let center = UNUserNotificationCenter.current()
+        let addNotification = {
+            let content = UNMutableNotificationContent()
+            content.title = "Local Notification"
+            content.subtitle = "Checking user notifications."
+            content.sound = .default
+            let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 10, repeats: false)
+            let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
+            center.add(request) { error in
+                if let error = error {
+                    print(error.localizedDescription)
+                }
+            }
+        }
+
+        center.getNotificationSettings { (settings) in
+            if settings.authorizationStatus == .authorized {
+                addNotification()
+            } else {
+                center.requestAuthorization(options: [.alert, .badge, .sound]) { success, error in
+                    if success {
+                        addNotification()
+                    } else {
+                        print(error?.localizedDescription ?? "Unknown error")
+                    }
+                }
+            }
+        }
     }
 }
 
